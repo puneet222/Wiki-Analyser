@@ -1,0 +1,250 @@
+body{
+  background-color:#FFFFFF;
+  text-align:center;
+}
+/* #search{
+  opacity :  ;
+  border : 5px solid pink ;
+  color : #64FFDA ;
+  font-size : 80px
+  background-color : pink;
+} */
+.searchbox input.lightsearch {
+    background:  no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #212121;
+    font-size: 15px;
+    height: 35px;
+    margin-top: 24px;
+    padding: 2px 5px 2px 24px;
+    width: 270px;
+    border : 3px solid #212121 ;
+    border-radius : 5px;
+    
+}
+
+a:hover {
+  text-decoration: none;
+}
+a{
+   color : black ;
+}
+
+#top
+{
+/*   position : absolute ; */
+  height:100px ;
+  
+}
+
+#preview{
+  color : white;
+}
+
+#brief{
+  border-style:solid;
+border-color:#FFF;
+padding: 14px ;
+border-width: 1px ;
+}
+
+#show{
+  background-color: #536DFE ;
+}
+
+#hide{
+  background-color: #651FFF ;
+}
+
+
+a{
+  text-decoration: none ;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #263238;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #4DD0E1;
+    color: white ;
+}
+
+#wikianly{
+  padding-left: 79px ;
+  padding-right: 750px ;
+
+}
+
+#about{
+  padding-top: 10px ;
+}
+
+#help{
+  padding-top: 10px ;
+}
+
+#contact{
+  padding-top: 10px ;
+}
+
+#nav{
+  position: fixed;
+  width: 100%;
+}
+
+.active {
+    background-color: #4DD0E1;
+}
+
+.font-style {
+  font-family: Papyrus, fantasy;
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+}
+
+#init-btn{
+  background-color:#18FFFF ;
+  border-radius: 30px ;
+  padding : 10px ;
+}
+
+#initial{
+  position : absolute;
+  top : 45%;
+  left : 35%;
+}
+
+#after{
+  position : absolute;
+  top : 45%;
+  left : 40%;
+}
+
+/*#result{
+  position : absolute;
+  top : 45%;
+  /*left : 40%;*/
+}*/
+
+.modal{
+  position:absolute;
+  top : 50%;
+}
+
+#analyse-btn{
+  position: relative;
+  top : 20px;
+  right : 60px;
+  background-color: #00E676;
+  color: white ;
+}
+
+#wiki_btn{
+  position: relative;
+  background-color: #546E7A ;
+  color: white ;
+}
+
+#main-analytics{
+  position : relative;
+  top : 83px;
+  z-index: 100;
+  /*left : 275px;*/
+}
+
+.scroll {
+    overflow: auto;
+    height: 100%;
+    padding: 0;
+    margin-left: 37px;
+}
+
+#form{
+  position:relative;
+  top : 100px;
+}
+
+#form2{
+  position:relative;
+  top : 100px;
+}
+
+section button {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  padding: 1rem 2.5rem;
+  display: block;
+  background-color: #009ac9;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+section button:hover {
+  background-color: #ffffff;
+  color: #009ac9;
+  border-color: #009ac9;
+}
+
+/*nav {
+    
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-right: none;
+    position: fixed;
+}
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    width: 16.6667%; /* fallback for non-calc() browsers */
+   /* width: calc(100% / 6);
+    box-sizing: border-box;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    padding: 10px 0;
+}*/
